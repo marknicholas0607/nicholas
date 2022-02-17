@@ -1,0 +1,116 @@
+@media (max-width: 768px){
+	.logo{
+		display: none;
+	}
+	.icon{
+		font-size: 1em;
+	}
+	.icon:hover{
+		padding-left: 15px;
+	}
+	.middle-side-box{
+		padding: 0;
+	}
+	.a{
+		display: none;
+	}
+	.h{
+		display: block;
+		margin-right: 30px;
+	}
+	.main{
+		display: block;
+	}
+	.left-box{
+		height: 100%;
+		width: 100%;
+	}
+	.right-box{
+		display: none;
+	}
+	h2{
+		font-size: 2.5em;
+		line-height: 1;
+	}
+	h3{
+		margin-top: -20px;
+	}
+	.divider{
+		margin-top: 10px;
+	}
+	h4{
+		font-size: 2em;
+		line-height: 1;
+		margin-left: 30px;
+		margin-top: 30px;
+	}
+	.description{
+		margin-left: 30px;
+		font-size: .8em;
+		width: 70%;
+	}
+	.button{
+		font-size: .8em;
+		margin-left: 30px;
+	}
+	.about{
+		display: block;
+		height: auto;
+	}
+	.about-left{
+		width: 100%;
+		height: 100%;
+		padding: 30px;
+	}
+	.about-right{
+		width: 100%;
+		height: 100%;
+		padding: 30px;
+	}
+	.about-text{
+		margin-left: 0;
+	}
+	.testimonials{
+		height: auto;
+	}
+	.test-box{
+		height: auto;
+		width: 90%;
+		display: block;
+	}
+	.pic-box{
+		height: 300px;
+		width: 100%;
+	}
+	.test-text-box{
+		width: 100%;
+		height: auto;
+	}
+	.project-box{
+		width: 100%;
+	}
+	.stack-box{
+		display: block;
+		padding: 30px;
+	}
+	.stack{
+		width: 90%;
+		margin: 0 auto;
+	}
+	.main-contact{
+		width: 95%;
+	}
+	.contact-form{
+		display: block;
+	}
+	.contact-left, .contact-right{
+		width: 100%;
+	}
+	.contact-left{
+		height: 200px;
+	}
+	.fname{
+		width: 100%;
+		margin-top: 5px;
+	}
+}

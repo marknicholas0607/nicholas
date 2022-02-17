@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mark Nicholas Razon | Information, Communication and Technology</title>
+	<script src="https://kit.fontawesome.com/d5b7c2a01a.js" crossorigin="anonymous"></script>
+	<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+	<meta charset="utf-8"> 
+	<meta name="og:title" content="Hi, I'm Mark"> 
+	<meta property="og:site_name" content="Hi, I'm Mark"> 
+	<meta name="og:image" content="image/background.jpg">
+	<meta name="og:description" content="This is my portfolio"> <meta name="facebook:title" content="Mark Nicholas Razon">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+   	<link rel="stylesheet" type="text/css" href="style.css">
+   	<link rel="stylesheet" type="text/css" href="media.css">
+   	<link href="https://fonts.googleapis.com/css2?family=Bakbak+One&family=Gideon+Roman&family=Lobster&family=Montserrat:wght@100;200;300;400;600&family=Moo+Lah+Lah&family=Mukta:wght@800&family=Neonderthaw&family=Open+Sans:wght@300;500;600;700&family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@100;200;300;400;600;700&family=Raleway:wght@100&family=Roboto:wght@100;300;400;500&family=Shizuru&family=Space+Mono&family=Spline+Sans:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<main>
+	<div class="modal-box" id="bar">
+		<div class="menu-box">
+			<nav>
+				<a href="#" class="i h" onclick="menu()">×</a><br>
+				<div class="menu-list">
+					<a href="#about" onclick="menu()" class="is" id="is1">About</a><br>
+					<a href="#testimonials" onclick="menu()" class="is" id="is2">Testimonials</a><br>
+					<a href="#projects" onclick="menu()" class="is" id="is3">Projects</a><br>
+					<a href="#certificates" onclick="menu()" class="is" id="is4">Stack</a><br>
+					<a href="#contact" onclick="menu()" class="is" id="is5">Contact</a><br>
+				</div>
+			</nav>
+		</div>
+	</div>
+	<script type="text/javascript">
+		function menu() {
+			var menu = document.getElementById('bar');
+			var is1 = document.getElementById('is1');
+			var is2 = document.getElementById('is2');
+			var is3 = document.getElementById('is3');
+			var is4 = document.getElementById('is4');
+			var is5 = document.getElementById('is5');
+
+			if (menu.style.width === "100%") {
+				menu.style.width = "0%";
+				is1.style.display = "none";
+				is2.style.display = "none";
+				is3.style.display = "none";
+				is4.style.display = "none";
+				is5.style.display = "none";
+			}
+			else{
+				menu.style.width = "100%";
+				is1.style.display = "block";
+				is2.style.display = "block";
+				is3.style.display = "block";
+				is4.style.display = "block";
+				is5.style.display = "block";
+			}
+		}
+	</script>
+	<div class="side-bar">
+		<div class="logo-box">
+			<p class="logo">MNR</p>
+		</div>
+		<div class="middle-side-box">
+			<p class="icon">
+				<i class="fab fa-facebook-f"></i>
+			</p>
+			<p class="icon">
+				<i class="fab fa-instagram"></i>
+			</p>
+			<p class="icon">
+				<i class="fab fa-github"></i>
+			</p>
+		</div>
+		<div class="email-box">
+			<h1><i class="fas fa-envelope t"></i> razonmarknicholas.cdlb@gmail.com</h1>
+		</div>
+	</div>
+	<div class="main-page">
+		<nav>
+			<a href="#" class="a h" onclick="menu()"><i class="fa fa-bars"></i></a>
+			<a href="#contact" class="a s">Contact</a>
+			<a href="#certificates" class="a">Stack</a>
+			<a href="#projects" class="a">Projects</a>
+			<a href="#testimonials" class="a">Testimonials</a>
+			<a href="#about" class="a">About</a>
+		</nav>
+		<div class="main">
+			<div class="left-box">
+				<h2 data-aos="fade-right" data-aos-duration ="300">Web Developer</h2>
+				<h3 data-aos="fade-right" data-aos-duration ="500">Web Developer</h3>
+				<div class="divider" data-aos="fade-right" data-aos-duration ="700"></div>
+				<h4 data-aos="fade-right" data-aos-duration ="500">Nicholas Razon</h4>
+				<p class="description" data-aos="fade-right" data-aos-duration ="500">
+					A 17-year-old ICT based in Laguna, Philippines
+					Freelancer & Designer at Fiverr
+				</p>
+				<button class="button" data-aos="fade-right" data-aos-duration ="500" onclick="window.location = 'https://calendly.com/marknicholas/15min';">Book a Meeting</button>
+			</div>
+			<div class="right-box">
+				<div class="image" data-aos="fade-left" data-aos-duration ="300">
+					<img src="bg.jpg" class="fill bord">
+				</div>
+			</div>
+		</div>
+	</div>
+</main> 
+<section id="about" class="about">
+	<div class="about-left">
+		<div class="fpic">
+			<img src="fpic.jpg" class="fill" data-aos="fade-right" data-aos-duration ="500">
+		</div>
+		<div class="spic">
+			<img src="spic.jpg" class="fill" data-aos="fade-left" data-aos-duration ="500">
+		</div>
+	</div>
+	<div class="about-right">
+		<h2 class="ab"  data-aos="fade-up" data-aos-duration ="700">About</h2>
+		<h3 data-aos="fade-up" data-aos-duration ="1200">About</h3>
+		<div class="divider"></div>
+		<p class="about-text">
+
+		I work on projects including websites and graphic design.<br><br>
+
+		I also make front end programming projects for school including HTML, CSS and JavaScript. I also made Learning Website called <a href="http://iprogram.epizy.com/" style="color: #a3724d;">iProgram</a> for incoming Senior Highschool ICT student to gain advance knowledge on how programming works.<br><br>
+
+		I've helped my Co-Students to program for them to gain more knowledge about front end programming, I've also build community of student developers sharing knowledge, mentorship, sharing support, sharing tools, code reviews, answering questions and much more.<br><br>
+
+		When i'm not writing code, I enjoy playing online games with my friends and learning new things, I share things I've learned through teaching.
+		</p>
+	</div>
+</section>
+
+<section id="testimonials" class="testimonials">
+	<h5 data-aos="fade-up">Testimonials</h5>
+	<h6 data-aos="fade-up" data-aos-duration="700">Testimonials</h6>
+	<div class="divide" data-aos="fade-up" data-aos-duration="1000"></div>
+	<div class="test-box"  data-aos="fade-up" data-aos-duration="700">
+		<div class="pic-box">
+			<img src="j1.jpg" class="fill">
+		</div>
+		<div class="test-text-box">
+			<p class="name">
+				Jerome Cruz
+			</p>
+			<p class="testimonial">
+				As Mark's former class adviser, I can say that his passion in his forte is very commendable. His knowledge and expertise in programming is beyond the level of a senior high school student. He exerts effort and dedicate most of his time yearning for new things to be discovered in the field of computer programming. Proactively, he studies in advance to become great in his specialization.
+			</p>
+		</div>
+	</div>
+	<div class="test-box" data-aos="fade-up" data-aos-duration="700">
+		<div class="pic-box">
+			<img src="j2.jpg" class="fill">
+		</div>	
+		<div class="test-text-box">
+			<p class="name">
+				Jon Cruz
+			</p>
+			<p class="testimonial">
+				Mark Nicholas is a diligent student with passion in programming. He always make sure that his activities are above the requirements.
+			</p>
+		</div>
+	</div>
+	<br><br>
+</section>
+
+<section id="projects" class="projects">
+	<h5 data-aos="fade-up">My Projects</h5>
+	<h6 data-aos="fade-up" data-aos-duration="700">My Projects</h6>
+	<div class="divide" data-aos="fade-up" data-aos-duration="1000"></div>
+	<div class="project-box">
+		<div class="proj-left">
+			<div class="top-proj">
+				<a href="nicholas0607.github.io/marknicholasrazon/index.html"><img src="x1.jpg" class="fill mo" data-aos="zoom-in" data-aos-duration="300"></a>
+			</div>
+			<div class="bot-proj">
+				<a href="https://marknicholas0607.github.io/researchtitlegenerator/"><img src="x2.jpg" class="fill mo"data-aos="zoom-in" data-aos-duration="500"></a>
+			</div>
+		</div>
+		<div class="proj-right">
+			<div class="proj">
+				<a href="http://iprogram.epizy.com/"><img src="x3.jpg" class="fill mo"data-aos="zoom-in" data-aos-duration="700"></a>
+			</div>
+			<div class="proj">
+				<a href="https://marknicholas0607.github.io/forxanthriel/"><img src="x4.jpg" class="fill mo"data-aos="zoom-in" data-aos-duration="900"></a>
+			</div>
+			<div class="proj">
+				<a href="https://mathingssolution.github.io/mathings/"><img src="x5.jpg" class="fill mo"data-aos="zoom-in" data-aos-duration="1100"></a>
+			</div>
+		</div>
+	</div><br><br>
+</section>
+
+<section id="certificates" class="certificates">
+	<h5 data-aos="fade-up">Tech Stack</h5>
+	<h6 data-aos="fade-up" data-aos-duration="700">Tech Stack</h6>
+	<div class="divide" data-aos="fade-up" data-aos-duration="1000"></div>
+	<div class="stack-box">
+		<div class="stack" data-aos="fade-up" data-aos-duration="300">
+			<div class="medal">
+				<i class="fas fa-medal" aria-hidden="true"></i>
+			</div>
+			<p class="text-stack">HTML / CSS / JS</p>
+			<p class="text-to">Design</p>
+		</div>
+		<div class="stack" data-aos="fade-up" data-aos-duration="700">
+			<div class="medal">
+				<i class="fas fa-medal" aria-hidden="true"></i>
+			</div>
+			<p class="text-stack">PHP / MySql</p>
+			<p class="text-to">Backend</p>
+		</div>
+		<div class="stack"data-aos="fade-up" data-aos-duration="1100">
+			<div class="medal">
+				<i class="fas fa-medal" aria-hidden="true"></i>
+			</div>
+			<p class="text-stack">C++ / Python / React</p>
+			<p class="text-to">Currently mastered</p>
+		</div>
+	</div><br><br>
+</section>
+
+<section id="contact" class="contact">
+	<div class="main-contact">
+		<p class="contact-text" data-aos="fade-up" data-aos-duration="1000" >Get in Touch</p>
+		<p class="contact-description" data-aos="fade-up" data-aos-duration="1000">
+			<i class="fas fa-phone-alt" style="color: #a3724d;" aria-hidden="true"></i>&nbsp;&nbsp;
+			 09357706217
+		</p>
+		<div class="contact-form">
+			<div class="contact-left">
+				<iframe class="fill" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d61898.91436678495!2d121.18424089190903!3d14.154775139071544!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33bd6729cb3dbf77%3A0x80ef3fa25a96f766!2sLos%20Ba%C3%B1os%2C%20Laguna!5e0!3m2!1sen!2sph!4v1645120645825!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" data-aos="fade-up" data-aos-duration="700"></iframe>
+			</div>
+			<div class="contact-right">
+				<form action="https://formspree.io/f/mgedkzaw" method="post" enctype="multipart/form-data">
+					<input type="text" name="Full_name" placeholder="Full Name" class="fname"  data-aos="zoom-in" data-aos-duration="300">
+					<input type="email" name="Email" placeholder="Email" class="fname" data-aos="zoom-in" data-aos-duration="500"><br>
+					<input type="text" name="subject" placeholder="Subject" class="subject" data-aos="zoom-in" data-aos-duration="700"><br>
+					<textarea class="comment" placeholder="Message..." type="text" name="Message" rows="10" cols="40" data-aos="zoom-in" data-aos-duration="900"></textarea>
+					<button type="submit" class="submit" >Send</button>
+				</form>
+			</div>
+		</div>
+    </div><br><br>
+</section>
+
+<script>
+  AOS.init();
+</script>
+</body>
+</html>
